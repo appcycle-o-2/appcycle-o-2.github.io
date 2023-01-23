@@ -27,13 +27,19 @@ a {
 }
 .header ul li{
     width: 200px;
+    height: 50px;
     text-align: center;
     border-right: 1px solid #ddd;
+    vertical-align: middle;
+}
+.header ul li:hover{
+  background-color: aliceblue;  
 }
 .header ul li:first-child{
     border-left: 1px solid #ddd;
 }
 .header ul li a {
+  padding: 16px 16px;
   display: block;
 }
 .header_img {
