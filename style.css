@@ -43,6 +43,7 @@ a {
 .header_img img {
   display: inline-block;
 }
+
 .container_service .service_block{
   display: flex;
   justify-content: space-between;
@@ -72,6 +73,7 @@ a {
   color: #fff;
   padding: 15px 20px 12px;
 }
+
 .footer {
   margin-bottom: 40px;
 }
@@ -86,3 +88,11 @@ a {
   font-size: 12px;
   padding: 7px 0 3px;
 }
+
+@media screen and (max-width:480px) {
+	.container_service .service_block{
+    display: block;
+    /*justify-content: space-between;*/
+  }
+}
+
