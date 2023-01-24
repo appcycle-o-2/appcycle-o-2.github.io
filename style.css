@@ -115,10 +115,3 @@ a {
   font-size: 12px;
   padding: 7px 0 3px;
 }
-
-@media screen and (max-width:480px) {
-  .container_service .service_block {
-    display: block;
-    /*justify-content: space-between;*/
-  }
-}
